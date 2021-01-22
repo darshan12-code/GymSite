@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan Fitness</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    /* CSS reset  */
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        /* background:no-repeat; */
+        width: 71%; 
+        background-image: url('img/im4.jpg');
+
+    }
+.header{
+    background-blend-mode:unset;
+}
+    .left {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: inline-block;
+        /* border: 2px solid blue; */
+        position: absolute;
+    
+        left: 10px;
+        top: 20px;
+        font-size: 20px;
+              
+
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+        
+        /* border: 2px solid red; */
+        
+
+    }
+
+    .right {
+        position: absolute;
+        right: 10px;
+        top: 32px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size:  15px;
+    }
+
+    .navbar li a {
+        color: white;
+        border: 2px solid white;
+        border-radius: 25px;
+        text-decoration: none;
+        padding: 20px 9px 21px 20px;
+    
+    }
+    
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: grey;
+    }
+   .mid .navbar li .cc:hover,
+    .mid .navbar li .cc:active {
+        color:rgba(241, 193, 184, 0.986);
+    }
+    .left img {
+        width: 100px;
+    margin-left: 12px;
+        filter: invert(100%);
+
+
+    }
+
+    .btn {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+
+        padding: 4px 14px;
+        border-radius: 10px;
+        font-size: 23px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(49, 52, 53);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 57px 400px;
+        padding: 50px 100px;
+        width: 35%;
+        border-radius: 20px;
+        font-size: 15px;
+        text-align: center;
+font-weight: bold;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 280px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 15px;
+        border-radius: 8px;
+
+    }
+
+    .container .btn {
+        display: block;
+        width: 150px;
+        margin: 20px auto;
+
+    }
+    .left .colorO{
+        color:tomato;
+    }
+.left h5{
+    display: inline;
+}
+   .mid .navbar li .cc{
+        color: tomato;
+    }
+    .right .cc{
+        color: tomato;
+    }
+    .container .cc{
+        background-color:  tomato;
+        border-radius: 25px;
+    }
+    .container h1{
+        display: inline;
+    }
+    .container .cc1{
+        color: tomato;
+    }
+    .container h2{
+        font-size: 20px;
+    }
+    .footer{
+        text-align: left;
+    }
+    .footer h1{
+        display: inline;
+        font-size: 25px;
+    }
+    .footer .cc{
+        color: tomato;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="img/logo.png" alt="">
+            <div><h5>Darshan</h5> <h5 class="colorO">Fitness</h5></div> 
+            <!-- <div id="fit">Fitness</div> -->
+        </div>
+        <div class="mid">
+            <!-- mid boxfor navbar -->
+            <ul class="navbar">
+                <li><a href="#"  class="item">Home</a></li>
+                <li><a href="#" class="cc">About Us</a></li>
+                <li><a href="#" class="item">Fitness Calculator</a></li>
+                <li><a href="#" class="cc">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <!-- right box for buttons -->
+            <button class="btn">Call us Now</button>
+            <button class="btn cc">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+
+        <h1  class="cc1"> Join</h1><h1> The </h1><h1 class="cc1">Best</h1><h1> Gym</h1> <h1 class="cc1"> Chandrapur</h1> <h2>Now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group cc">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group cc">
+                <input type="text" name=""  placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+        </h1>
+    </div>
+<footer class="footer"><h1>&copy;</h1><h1>darshan</h1><h1 class="cc">fitness</h1></footer>
+</body>
+
+</html>
